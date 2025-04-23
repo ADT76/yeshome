@@ -12,23 +12,44 @@
 <div data-include="nav.html"></div>
 
 <main>
-    <h1 class="text-4xl text-center">Découvrez nos articles</h1>
-    <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <div class="card w-96 bg-base-100 card-lg shadow-sm">
-            <div class="card-body">
-                <h2 class="card-title">Large Card</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div class="justify-end card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
+    <h1 class="text-4xl text-center my-20">Découvrez nos articles</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition hover:shadow-2xl hover:scale-[1.01] duration-300">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2">Les solutions de répit pour les proches aidants </h2>
+                <p class="text-gray-600 text-lg mb-4">
+                    Pour préserver son équilibre en tant qu'aidant, il est nécessaire de s'autoriser des moments de répit et de prendre des moments pour soi. Mais quelles sont ces solutions de répit ? Et à qui s'adresser pour les mettre en place ?                </p>
+                <a href="#" class="inline-block px-4 py-2 bg-gray-700 text-white text-lg rounded hover:bg-yellow-400 hover:text-black transition">
+                    En savoir plus
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition hover:shadow-2xl hover:scale-[1.01] duration-300">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2">Prévenir les risques de chute des séniors</h2>
+                <p class="text-gray-600 text-lg mb-4">
+                    Chaque année, les chutes touchent de nombreux seniors, mais elles peuvent être anticipées par des aménagements adaptés et des exercices spécifiques. Quelles sont ces solutions ? Et qui peut aider à les mettre en place ?
+                    <a href="#" class="inline-block mt-5 px-4 py-2 bg-gray-700 text-white text-lg rounded hover:bg-yellow-400 hover:text-black transition">
+                    En savoir plus
+                </a>
+            </div>
+        </div>
+        <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition hover:shadow-2xl hover:scale-[1.01] duration-300">
+            <div class="p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2">Qui sont les proches aidants ?</h2>
+                <p class="text-gray-600 text-lg mb-4">
+                    Face au vieillissement de la population, de plus en plus de Français se retrouvent dans la position d’aidant pour un proche en perte d’autonomie. Cette réalité, bien que méconnue, a un impact majeur sur la santé physique et mentale des aidants, ainsi que sur leur vie personnelle et professionnelle.
+                </p>
+                <a href="#" class="inline-block px-4 py-2 bg-gray-700 text-white text-lg rounded hover:bg-yellow-400 hover:text-black transition">
+                    En savoir plus
+                </a>
             </div>
         </div>
     </div>
-
-
+</main>
     <div data-include="footer.html"></div>
 
 <script src="../asset/js/include.js"></script>
-</main>
+<script src="../asset/js/menu.js"></script>
 </body>
 </html>
