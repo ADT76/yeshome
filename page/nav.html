@@ -1,0 +1,79 @@
+<nav class="text-xl px-6 py-5 shadow-md bg-white" aria-label="Navigation principale">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="../asset/img/yeshome.png" alt="Logo YesHome" class="h-16 w-auto">
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="lg:hidden">
+                <button id="mobile-menu-button" type="button" class="p-3 rounded-lg bg-gray-100 hover:bg-yellow-400 transition duration-200" aria-expanded="false" aria-controls="mobile-menu" aria-label="Ouvrir le menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Desktop menu -->
+            <ul class="hidden lg:flex items-center space-x-2">
+                <li>
+                    <a href="index.html" class="nav-link block px-5 py-3 text-xl rounded-lg hover:bg-yellow-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="index">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-link block px-5 py-3 text-xl rounded-lg hover:bg-yellow-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="about">
+                        Notre mission
+                    </a>
+                </li>
+                <li>
+                    <a href="tarifs.html" class="nav-link block px-5 py-3 text-xl rounded-lg hover:bg-yellow-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="tarifs">
+                        Tarifs
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link block px-5 py-3 text-xl rounded-lg hover:bg-yellow-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="blog">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link block px-5 py-3 text-xl rounded-lg hover:bg-yellow-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile menu, toggle classes based on menu state -->
+        <div id="mobile-menu" class="hidden lg:hidden mt-4 pb-3">
+            <ul class="flex flex-col space-y-2">
+                <li>
+                    <a href="index.html" class="nav-link block px-5 py-4 text-xl rounded-lg bg-gray-100 hover:bg-yellow-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="index">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-link block px-5 py-4 text-xl rounded-lg bg-gray-100 hover:bg-yellow-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="about">
+                        Notre mission
+                    </a>
+                </li>
+                <li>
+                    <a href="tarifs.html" class="nav-link block px-5 py-4 text-xl rounded-lg bg-gray-100 hover:bg-yellow-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="tarifs">
+                        Tarifs
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html" class="nav-link block px-5 py-4 text-xl rounded-lg bg-gray-100 hover:bg-yellow-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="blog">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-link block px-5 py-4 text-xl rounded-lg bg-gray-100 hover:bg-yellow-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-yellow-500 transition duration-200" data-page="contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,92 @@
+<!-- Footer élégant et accessible -->
+<footer class="bg-gradient-to-b  to-yellow-500 text-gray-800 py-12" role="contentinfo" aria-label="Pied de page">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+            <!-- Colonne 1: Logo et contact -->
+            <div>
+                <div class="flex items-center mb-6">
+                    <div class="bg-black rounded-full w-20 h-20 flex items-center justify-center">
+                        <span class="text-white text-4xl font-bold">Y</span>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">YesHome opère en :</h3>
+                <p class="text-lg mb-6">Seine-Maritime, Île-de-France et Bouches-de-Rhône</p>
+                <h3 class="text-xl font-semibold mb-2">Contact :</h3>
+                <a href="mailto:contact@yeshome.fr" class="text-lg hover:text-black transition-colors duration-200 flex items-center">
+                    <i class="far fa-envelope mr-2 text-xl"></i>
+                    contact@yeshome.fr
+                </a>
+            </div>
+
+            <!-- Colonne 2: Navigation -->
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold mb-6 border-b border-gray-800 pb-2">Navigation</h3>
+                <nav aria-label="Navigation du pied de page">
+                    <ul class="space-y-2 text-lg">
+                        <li>
+                            <a href="#" class="hover:text-black transition-colors duration-200 flex items-center">
+                                <i class="fas fa-sitemap mr-2 w-6 text-center"></i>
+                                Plan du site
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="hover:text-black transition-colors duration-200 flex items-center">
+                                <i class="fas fa-home mr-2 w-6 text-center"></i>
+                                Accueil
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="hover:text-black transition-colors duration-200 flex items-center">
+                                <i class="fas fa-info-circle mr-2 w-6 text-center"></i>
+                                Notre Mission
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tarifs.html" class="hover:text-black transition-colors duration-200 flex items-center">
+                                <i class="fas fa-tag mr-2 w-6 text-center"></i>
+                                Tarifs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog.html" class="hover:text-black transition-colors duration-200 flex items-center">
+                                <i class="fas fa-blog mr-2 w-6 text-center"></i>
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Séparateur -->
+        <hr class="border-gray-800/30 my-8">
+
+        <!-- Copyright et liens légaux -->
+        <div class="flex flex-col md:flex-row md:justify-between text-base">
+            <div class="mb-4 md:mb-0">
+                <p>&copy; 2024 YesHome. Tout droits réservés.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-black transition-colors duration-200">
+                    Confidentialité
+                </a>
+                <a href="#" class="hover:text-black transition-colors duration-200">
+                    Conditions Générales
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Script pour changer la taille de la police -->
+<script>
+    // Fonction pour augmenter la taille de la police
+    document.getElementById('increase-font').addEventListener('click', function() {
+        document.body.style.fontSize = parseFloat(getComputedStyle(document.body).fontSize) * 1.1 + 'px';
+    });
+
+    // Fonction pour diminuer la taille de la police
+    document.getElementById('decrease-font').addEventListener('click', function() {
+        document.body.style.fontSize = parseFloat(getComputedStyle(document.body).fontSize) * 0.9 + 'px';
+    });
+</script>
